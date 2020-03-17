@@ -1,0 +1,31 @@
+UI/ FRONTEND
+1)	Login/Signup
+i)	Token Authentication
+ii)	Google, LinkedIn login
+iii)	Rights Management (Only admin can create Profiles)
+2)	Browse all resumes (Limit up to 10 (say))
+i)	Manual Uploading (Google Drive, Dropbox, System drive)
+ii)	Naukri.com
+iii)	AngelList.co.in
+iv)	Indeed
+3)	Option to select profile 
+4)	Upload Job description
+5)	Start scanning 
+6)	Show shortlisted candidates
+
+API
+1)	Login
+2)	Register
+3)	Resume Database Entry
+4)	Input to model
+5)	Process output from model
+
+MODELLING
+1)	Model for selecting resumes according to most frequently keywords in job description.
+2)	Resumes extraction (Automatic reading of resumes)
+3)	Create profile (Phrase matching and categorization)
+4)	Data visualization
+
+
+DATABASE
+1)	Store data from API’s
