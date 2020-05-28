@@ -1,1 +1,1 @@
-Python Projects
+Python programs on basic concepts.
