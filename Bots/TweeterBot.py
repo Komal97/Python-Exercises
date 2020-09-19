@@ -40,6 +40,6 @@ class TwitterBot:
                 except Exception as e:
                     print("Exception ", e)
 
-user_account = TwitterBot("8130327281", "Komal@1997")
+user_account = TwitterBot("USER_ID", "PASSWORD")
 user_account.login()
 user_account.like_tweets("webdevelopment")

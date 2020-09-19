@@ -27,5 +27,5 @@ class IndeedBot:
         password.send_keys(Keys.RETURN)
         time.sleep(3)
 
-user_account = IndeedBot("8130327281", "Komal@1997")
+user_account = IndeedBot("USER_ID", "PASSWORD")
 user_account.login()
