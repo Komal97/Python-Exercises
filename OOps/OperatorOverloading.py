@@ -13,6 +13,9 @@ class Circle:
     def area(self):
         return math.pi * self.__radius ** 2
 
+    def compare(self, other_obj):
+        return self.__radius > other_obj.__radius
+    
     def __add__(self, circle_obj):
         return  Circle(self.__radius + circle_obj.__radius)
 
@@ -24,6 +27,7 @@ class Circle:
 
     def __str__(self):
         return "Circle area = " + str(self.area())
+    
 
 c1 = Circle(2)
 c2 = Circle(3)
@@ -38,3 +42,6 @@ print(c1 > c2)
 print(c1 < c2)
 
 print(str(c1))
+
+# custom comparison (same as __gt__)
+print(c1.compare(c2))
